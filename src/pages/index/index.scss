@@ -1,0 +1,260 @@
+.div_index {
+    .index {
+        height: 800px;
+        background-image: url('../../asset/index/banner.png');
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .index-state {
+            color: #ffffff;
+            text-align: center;
+
+            .state-one {
+                font-size: 50px;
+                margin-bottom: 22px;
+            }
+
+            .state-two {
+                font-size: 50px;
+                margin-bottom: 57px;
+            }
+
+            .state-three {
+                font-size: 30px;
+                margin-bottom: 10px;
+            }
+
+            .state-four {
+                font-size: 30px;
+                margin-bottom: 57px;
+            }
+        }
+
+        .index-search {
+            display: flex;
+            background-color: rgba($color: #ffffff, $alpha: 0.8);
+            border-radius: 15px;
+            height: 80px;
+            align-items: center;
+            // width: 900px;
+            padding: 20px 16px;
+
+            .search-lef {
+                width: 267px;
+                display: flex;
+
+                .lef-icon {
+                    margin-right: 13px;
+                }
+
+                .lef-down {}
+            }
+
+            .search-rig {
+                width: 633px;
+            }
+        }
+    }
+
+    .index-flow {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 60px 0 90px;
+
+        .flow-cell {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .cell-img {
+                // margin-bottom: 46px;
+                margin-right: 10px;
+            }
+
+            .cell-text {}
+        }
+
+        .flow-jt {
+            margin-right: 10px;
+        }
+    }
+
+    .index-navList {
+        text-align: center;
+        margin-bottom: 72px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .navList-title {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 7.083333rem;
+        }
+
+        .navList-sw {
+            width: 67.708333rem;
+
+            .sw-list {
+                display: flex;
+                justify-content: center;
+                .list-cells {
+                    display: flex !important;
+                    flex-wrap: wrap !important;
+                    justify-content: center !important;
+
+                    .cell-boxs {
+                        width: 10.416667rem;
+                        height: 10.416667rem;
+                        margin: .78125rem !important;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            border-radius: .416667rem !important;
+                        }
+                    }
+                }
+            }
+
+            .sw-oper {
+                display: flex;
+                justify-content: space-around;
+
+                .oper-lef {}
+
+                .oper-rig {}
+            }
+        }
+    }
+
+    .index-goods {
+        padding: 0 360px;
+        margin-bottom: 95px;
+
+        .goods-title {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 136px;
+            text-align: center;
+        }
+
+        .sw-list {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .list-cells {
+                display: flex !important;
+                flex-wrap: wrap !important;
+                justify-content: center !important;
+
+                .cell-boxs {
+                    width: 10.416667rem;
+                    height: 10.416667rem;
+                    margin: .78125rem !important;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        border-radius: .416667rem !important;
+                    }
+                }
+            }
+        }
+    }
+
+    .index-tin {
+        padding: 0 360px;
+        margin-bottom: 140px;
+
+        .tin-title {
+            text-align: center;
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 136px;
+        }
+
+        .tin-list {
+            display: flex;
+            justify-content: space-between;
+
+            .list-cell {
+                width: 340px;
+                height: 500px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                border: 2px solid #BFBFBF;
+
+                .cell-img {}
+
+                .cell-text {
+                    font-size: 24px;
+                    padding: 0 30px;
+                }
+
+                .cell-btn {
+                    width: 180px;
+                    height: 40px;
+                    color: #ffffff;
+                    background-color: #0083F1;
+                    border-radius: 20px;
+                    font-size: 20px;
+                    line-height: 40px;
+                    text-align: center;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+
+    .index-sta {
+        color: #ffffff;
+        height: 600px;
+        background-image: url('../../asset/index/tin_four.png');
+        padding: 0 420px;
+
+        .sta-title {
+            text-align: center;
+            font-size: 36px;
+            padding-top: 70px;
+            margin-bottom: 70px;
+        }
+
+        .sta-list {
+            display: flex;
+            justify-content: space-between;
+
+            .list-box {
+                text-align: center;
+
+                .box-num {
+                    width: 254px;
+                    height: 254px;
+                    border: 10px solid #FFC78B;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: #ffffff;
+                    font-size: 80px;
+                    margin-bottom: 50px;
+                }
+
+                .list-text {
+                    font-size: 20px;
+                    color: #ffffff;
+                }
+            }
+
+        }
+    }
+}
+
+.ant-carousel {
+    width: 80%;
+}

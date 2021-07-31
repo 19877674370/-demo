@@ -1,0 +1,121 @@
+.user {
+    margin: 3.125rem 18.75rem;
+    border-radius: .260417rem;
+    padding: 2.083333rem 2.604167rem;
+    display: flex;
+    box-shadow: 0px 0px 68px 0px rgba(0, 92, 169, 0.11);
+
+    .user-lef {
+        width: 10.416667rem;
+        margin-right: 2.604167rem;
+
+        .lef-top {
+            margin-bottom: 2.604167rem;
+            text-align: center;
+            border-bottom: .052083rem solid #0E4B7E;
+
+            .top-img {}
+
+            .top-name {
+                padding: .520833rem 0 3.125rem;
+                color: #282828;
+                font-size: 1.354167rem;
+            }
+        }
+
+        .lef-bom {
+            color: #434343;
+            font-size: 1.041667rem;
+
+            .bom-list {
+                .list-cell {
+                    margin-bottom: 2.708333rem;
+                }
+            }
+        }
+    }
+
+    .user-rig {
+        flex: 1;
+
+        .rig-address {
+            .address-list {
+                margin-bottom: .520833rem;
+
+                .list-cell {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: .260417rem;
+
+                    .cell-lef {
+                        border: .052083rem solid #6793B7;
+                        padding: 0 .78125rem;
+                        flex: 9;
+                        margin-right: .78125rem;
+                        display: flex;
+                        border-radius: .15625rem;
+
+                        div {
+                            flex: 1;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                            overflow: hidden;
+                            word-break: break-all;
+                            color: #434343;
+                            font-size: 1.041667rem;
+                        }
+                    }
+
+                    .cell-rig {
+                        flex: 1;
+                    }
+                }
+            }
+
+            .address-btn {}
+        }
+
+        .rig-balance {
+            padding-left: 5.208333rem;
+
+            .balance-record {
+                color: #0094ff;
+                text-align: right;
+            }
+
+            .balance-top {
+                padding-top: 5.208333rem;
+                font-weight: bold;
+                font-size: 1.5625rem;
+                margin-bottom: 4.166667rem;
+            }
+
+            .balance-toup {
+                border: 1px solid #0083F1;
+                width: 13.020833rem;
+                height: 2.395833rem;
+                border-radius: 1.197917rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+.isUserActive {
+    color: #0094ff !important;
+}
+
+.take-add {
+    padding-top: .520833rem;
+    display: flex;
+    justify-content: center;
+
+    span {
+        padding: .520833rem 6.927083rem;
+        background-color: #6793B7;
+        color: #ffffff;
+        border-radius: .520833rem;
+    }
+}

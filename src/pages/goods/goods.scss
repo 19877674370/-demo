@@ -1,0 +1,196 @@
+.goodsList {
+    padding: 0 360px;
+
+    .list-search {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .index-search {
+            display: flex;
+            background-color: rgba($color: #ffffff, $alpha: 0.8);
+            border-radius: 15px;
+            height: 80px;
+            align-items: center;
+            // width: 900px;
+            padding: 20px 16px;
+
+            .search-lef {
+                width: 267px;
+                display: flex;
+
+                .lef-icon {
+                    margin-right: 13px;
+                }
+
+                .lef-down {}
+            }
+
+            .search-rig {
+                width: 633px;
+            }
+        }
+    }
+
+    .list-good {
+        .good-list {
+            display: flex;
+            // justify-content: space-between;
+            flex-wrap: wrap;
+
+            .list-box {
+                width: 25%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 80px;
+
+                .box-img {}
+
+                .box-title {
+                    margin: 48px 0 23px;
+                    font-size: 30px;
+                    color: #444444;
+                    text-overflow: -o-ellipsis-lastline;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                }
+
+                .box-price {
+                    color: #FF2A2A;
+                    font-size: 30px;
+
+                    .price-lef {
+                        margin-right: 10px;
+                    }
+
+                    .price-rig {
+                        font-size: 26px;
+                    }
+                }
+            }
+        }
+    }
+
+    .list-page {
+        display: flex;
+        justify-content: center;
+        padding: 0 0 20px;
+    }
+}
+
+// 商品详情
+.det {
+    padding: 0 18.75rem;
+
+    .det-ams {
+        padding: 3.125rem 0;
+        display: flex;
+
+        .ams-lef {
+            width: 23.33rem;
+            height: 23.958333rem;
+            margin-right: 2.239583rem;
+        }
+
+        .ams-rig {
+            .rig-title {
+                font-size: 2.083333rem;
+                color: #444444;
+                font-weight: bold;
+            }
+
+            .rig-price {
+                color: #FF2A2A;
+                font-size: 1.770833rem;
+                font-weight: bold;
+            }
+
+            .rig-ref {
+                font-size: 1.354167rem;
+                color: #444444;
+            }
+
+            .rig-rate {}
+
+            .rig-color {
+
+                .color-title {
+                    color: #232323;
+                    font-size: 1.354167rem;
+                    font-weight: bold;
+                }
+
+                .color-list {
+                        display: flex;
+                        .list-box {
+                            margin-right: 1.041667rem;
+                            width: 1.5625rem;
+                            height: 1.5625rem;
+                            border-radius: .260417rem;
+                            background-color: #FF4141;
+                        }
+                }
+            }
+
+            .rig-size {
+                margin-bottom: .520833rem;
+                width: 100%;
+                .size-title {
+                    font-weight: bold;
+                    color: #232323;
+                    // font-size: 1.354167rem;
+                }
+
+                .size-list {
+                    font-size: 1.354167rem;
+                    color: #232323;
+                    display: flex;
+                    flex-wrap: wrap;
+                    .size-box {
+                        padding: .260417rem .520833rem;
+                        margin: .260417rem;
+                        // margin-right: 1.041667rem;
+                        // width: 1.5625rem;
+                        // height: 1.5625rem;
+                        border-radius: .260417rem;
+                        background-color: #ebebeb;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+
+            .rig-num {
+                display: flex;
+                .num-lef {
+                    margin-right: 2.083333rem;
+                }
+                .num-rig {
+
+                }
+            }
+        }
+    }
+    
+    .det-dec {
+        .dec-title {
+            font-size: 1.5625rem;
+            color: #2B2B2B;
+            width: 12.34375rem;
+            border-bottom: .364583rem solid #FF4141;
+            margin-bottom: 4.6875rem;
+        }
+        .dec-ss {}
+    }
+}
+
+.isActive {
+    background-color: #0094ff !important;
+    color: #ffffff !important;
+}

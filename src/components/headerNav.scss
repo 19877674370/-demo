@@ -1,0 +1,87 @@
+.nav {
+    color: #FEFEFE;
+
+    .nav-top {
+        padding: 10px 0;
+        background-color: #0174d1;
+        display: flex;
+        font-size: 16px;
+
+        .nav-lef {
+            color: #E9AA3A;
+            display: flex;
+            justify-content: center;
+            flex: 1;
+
+            .lef-money {
+                display: flex;
+                margin-right: 20px;
+
+                .money-icon {
+                    margin-right: 10px;
+                }
+
+                .money-num {}
+            }
+
+            .lef-phone {
+                display: flex;
+
+                .phone-icon {
+                    margin-right: 10px;
+                }
+
+                .phone-num {}
+            }
+        }
+
+        .nav-rig {
+            flex: 1;
+            display: flex;
+            justify-content: space-around;
+
+            .rig-menu {
+                display: flex;
+
+                .menu-icon {
+                    margin-right: 10px;
+                }
+
+                .menu-text {}
+            }
+        }
+    }
+
+    .nav-bom {
+        padding: 15px 0;
+        background-color: #0183f0;
+        display: flex;
+        align-items: center;
+        font-size: 24px;
+
+        .bom-logo {
+            flex: 1;
+            text-align: center;
+        }
+
+        .bom-tab {
+            display: flex;
+            flex: 1;
+
+            .tab-box {
+                margin-right: 20px;
+            }
+            .tab-box:hover {
+                font-size: larger;
+                color: white;
+                background-color: #045ba1;
+  
+              }
+
+            .indexActive {
+                color: #282828 !important;
+            }
+        }
+    }
+}
+
